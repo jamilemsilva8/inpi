@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPI - Consulta à Base de Dados</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte opcional Open Sans para modernizar mantendo a sobriedade institucional -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barra de Governo (Topo) -->
+    <header class="gov-bar">
+        <div class="container gov-container">
+            <div class="gov-brand">
+                <img src="midia/brasil-flag.svg" alt="Bandeira do Brasil" class="gov-flag-icon">
+                <span>BRASIL</span>
+            </div>
+            <nav class="gov-nav">
+                <ul>
+                    <li><a href="#">ACESSO À INFORMAÇÃO</a></li>
+                    <li><a href="#">PARTICIPE</a></li>
+                    <li><a href="#">SERVIÇOS</a></li>
+                    <li><a href="#">LEGISLAÇÃO</a></li>
+                    <li><a href="#">CANAIS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Cabeçalho Principal (Logo + Ações do Usuário) -->
+    <div class="main-header container">
+        <div class="logo-area">
+            <h1 class="logo-text">INPI</h1>
+            <div class="logo-description">
+                <span>INSTITUTO</span>
+                <span>NACIONAL DA</span>
+                <span>PROPRIEDADE</span>
+                <span>INDUSTRIAL</span>
+            </div>
+        </div>
+        
+        <nav class="user-nav">
+            <a href="#">AJUDA?</a>
+            <span class="divider">|</span>
+            <a href="#">LOGIN</a>
+            <span class="divider">|</span>
+            <a href="#" class="btn-register">CADASTRE-SE AQUI</a>
+        </nav>
+    </div>
+
+    <!-- Conteúdo Principal -->
+    <main class="main-content container">
+        <h2 class="section-title">CONSULTA BASE DE DADOS DO INPI</h2>
+
+        <!-- Grid de Categorias -->
+        <div class="grid-categories">
+            
+            <!-- Card 1: Marca -->
+            <a href="#" class="card cat-marca">
+                <div class="icon-wrapper">
+                    <img src="midia/marca.svg" alt="Ícone de Marca">
+                </div>
+                <h3>MARCA</h3>
+            </a>
+
+            <!-- Card 2: Patente -->
+            <a href="#" class="card cat-patente">
+                <div class="icon-wrapper">
+                    <img src="midia/patente.svg" alt="Ícone de Patente">
+                </div>
+                <h3>PATENTE</h3>
+            </a>
+
+            <!-- Card 3: Desenho Industrial -->
+            <a href="#" class="card cat-desenho">
+                <div class="icon-wrapper">
+                    <img src="midia/desenho-industrial.svg" alt="Ícone de Desenho Industrial">
+                </div>
+                <h3>DESENHO INDUSTRIAL</h3>
+            </a>
+
+            <!-- Card 4: Informação Tecnológica -->
+            <a href="#" class="card cat-inf-tec">
+                <div class="icon-wrapper">
+                    <img src="midia/inf-tecnologica.svg" alt="Ícone de Informação Tecnológica">
+                </div>
+                <h3>INFORMAÇÃO TECNOLÓGICA DE PATENTES</h3>
+            </a>
+
+            <!-- Card 5: Indicação Geográfica -->
+            <a href="#" class="card cat-ig">
+                <div class="icon-wrapper">
+                    <img src="midia/indicacao-geografica.svg" alt="Ícone de Indicação Geográfica">
+                </div>
+                <h3>INDICAÇÃO GEOGRÁFICA</h3>
+            </a>
+
+            <!-- Card 6: Programa de Computador -->
+            <a href="#" class="card cat-software">
+                <div class="icon-wrapper">
+                    <img src="midia/programa-computador.svg" alt="Ícone de Programa de Computador">
+                </div>
+                <h3>PROGRAMA DE COMPUTADOR</h3>
+            </a>
+
+            <!-- Card 7: Topografia de Circuito Integrado -->
+            <a href="#" class="card cat-circuito">
+                <div class="icon-wrapper">
+                    <img src="midia/circuito-integrado.svg" alt="Ícone de Circuito Integrado">
+                </div>
+                <h3>TOPOGRAFIA DE CIRCUITO INTEGRADO</h3>
+            </a>
+
+            <!-- Card 8: Transferência de Tecnologia -->
+            <a href="#" class="card cat-transf-tec">
+                <div class="icon-wrapper">
+                    <img src="midia/transf-tecnologia.svg" alt="Ícone de Transferência de Tecnologia">
+                </div>
+                <h3>TRANSFERÊNCIA DE TECNOLOGIA</h3>
+            </a>
+
+        </div>
+
+        <!-- Bloco de Notas Informativas -->
+        <section class="notes-section">
+            <h4 class="notes-title">NOTA:</h4>
+            <div class="notes-grid">
+                <div class="note-item">
+                    <p>- PARA EFEITOS LEGAIS A REVISTA ELETRÔNICA DA PROPRIEDADE INDUSTRIAL (RPI) É O ÚNICO CANAL DESTINADO A PUBLICAR OS ATOS, DESPACHOS E DECISÕES RELACIONADOS ÀS ATIVIDADES DA AUTARQUIA.</p>
+                </div>
+                <div class="note-item">
+                    <p>- O ACERVO CONTIDO NA BASE DE DADOS ESTÁ RESTRITO A DOCUMENTOS PUBLICADOS A PARTIR DO ANO 2000, E A PARTIR DE OUTUBRO DE 2009 PARA CONTRATOS DE TECNOLOGIA, CUJOS DADOS FORAM PUBLICADOS OFICIALMENTE NA REVISTA DA PROPRIEDADE INDUSTRIAL.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer container">
+        <address class="footer-address">
+            RUA MAYRINK VEIGA, 9 - CENTRO - RJ - CEP: 20090-910
+        </address>
+        <div class="fale-conosco">
+            <a href="#">
+                <img src="midia/fale-conosco.svg" alt="Fale Conosco" class="fale-conosco-icon">
+                <span>Fale Conosco</span>
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
